@@ -87,6 +87,11 @@ a {
 .profile-column {
   width: 210px;
   align-self: start;
+.korean-name 
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.4;
 }
 
 .profile-photo {
@@ -180,6 +185,9 @@ a {
 .content-column {
   max-width: 620px;
   padding-top: 1px;
+.content-column 
+  max-width: 620px;
+  padding-top: 8px;
 }
 
 .section-title {
