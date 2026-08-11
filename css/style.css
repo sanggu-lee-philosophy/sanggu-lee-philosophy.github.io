@@ -316,14 +316,15 @@ a {
   margin-top: 2px;
 }
 
-.meta-separator {
-  color: var(--muted);
-  font-size: 0.78rem;
-}
-
+.meta-separator,
 .publication-info {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.publication-info em {
+  font-style: italic;
 }
 
 /* Abstract toggle */
