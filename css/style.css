@@ -129,19 +129,6 @@ a {
   line-height: 1.2;
 }
 
-.position {
-  margin: 16px 0 0;
-  font-size: 0.86rem;
-  font-weight: 500;
-  line-height: 1.5;
-}
-
-.institution {
-  margin: 1px 0 0;
-  color: var(--muted);
-  font-size: 0.86rem;
-}
-
 /* Professional links */
 
 .profile-links {
@@ -153,8 +140,9 @@ a {
 }
 
 .profile-links a {
-  color: var(--accent);
+  color: #111111;
   font-size: 0.81rem;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -205,12 +193,6 @@ a {
   margin: 0 0 22px;
 }
 
-
-.construction-note {
-  color: var(--muted);
-  font-size: 0.86rem;
-}
-
 /* Shared pages */
 
 .standard-page {
@@ -226,17 +208,11 @@ a {
 }
 
 .page-heading h1 {
-  margin: 0 0 17px;
+  margin: 0;
 
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 2.45rem;
   font-weight: 600;
-}
-
-.page-heading p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.98rem;
 }
 
 /* Research and teaching */
@@ -276,19 +252,12 @@ a {
 .research-entry h3,
 .paper-entry h3,
 .course-entry h3 {
-  margin: 0 0 1px;
+  margin: 0 0 3px;
 
-  font-family: "Inter", Arial, sens-serif;
-  font-size: 0.96rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-.work-status {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.78rem;
-  line-height: 1.4;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.45;
 }
 
 .paper-entry h3 a {
@@ -305,6 +274,30 @@ a {
 .course-entry p:last-child {
   margin: 0;
   color: var(--muted);
+}
+
+/* Works in Progress */
+
+.work-entry {
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.work-entry h3 {
+  margin: 0;
+
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.work-status {
+  margin: 1px 0 0;
+
+  color: var(--muted);
+  font-size: 0.77rem;
+  line-height: 1.35;
 }
 
 /* Abstract toggle */
@@ -418,5 +411,4 @@ a {
   .standard-page {
     padding-top: 48px;
   }
-
 }
