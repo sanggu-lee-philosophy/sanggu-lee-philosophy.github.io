@@ -307,6 +307,25 @@ a {
   line-height: 1.4;
 }
 
+/* Paper publication information */
+
+.paper-meta-line {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  margin-top: 2px;
+}
+
+.meta-separator {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.publication-info {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
 /* Abstract toggle */
 
 .abstract-toggle {
