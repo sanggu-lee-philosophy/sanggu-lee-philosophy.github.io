@@ -291,10 +291,6 @@ a {
   line-height: 1.4;
 }
 
-.works-section .work-entry:first-of-type {
-  padding-top: 7px;
-}
-
 .works-section .work-entry:last-child {
   border-bottom: none;
 }
