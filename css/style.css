@@ -151,32 +151,6 @@ a {
   text-underline-offset: 3px;
 }
 
-/* AOS and AOC */
-
-.profile-details {
-  padding-top: 21px;
-  border-top: 1px solid var(--line);
-
-  display: grid;
-  gap: 19px;
-}
-
-.profile-details h2 {
-  margin: 0 0 4px;
-
-  color: var(--muted);
-  font-size: 0.65rem;
-  font-weight: 600;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-}
-
-.profile-details p {
-  margin: 0;
-  font-size: 0.83rem;
-  line-height: 1.6;
-}
-
 /* Main introduction */
 
 .content-column {
