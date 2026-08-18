@@ -365,7 +365,7 @@ a {
     padding-top: 44px;
 
     grid-template-columns: 1fr;
-    gap: 48px;
+    gap: 28px;
   }
 
   .profile-column {
@@ -382,6 +382,10 @@ a {
     max-width: 620px;
     padding-top: 0;
   }
+  
+  .profile-links {
+  margin-bottom: 0;
+}
 }
 
 @media (max-width: 480px) {
