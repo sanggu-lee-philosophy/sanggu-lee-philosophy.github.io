@@ -250,8 +250,8 @@ a {
   text-underline-offset: 4px;
 }
 
-.research-entry p:last-child,
-.course-entry p:last-child {
+.research-entry > p:last-child,
+.course-entry > p:last-child {
   margin: 0;
   color: var(--muted);
 }
@@ -324,12 +324,15 @@ a {
   padding-left: 15px;
 
   border-left: 2px solid var(--line);
-
-  color: #404040;
 }
 
 .abstract-panel p {
   margin: 0;
+  color: var(--muted);
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
 /* Footer */
