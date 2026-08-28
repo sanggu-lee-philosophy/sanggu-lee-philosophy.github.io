@@ -156,9 +156,9 @@ a {
 
 .content-column {
   max-width: 620px;
-  padding-top: 0px;
+  padding-top: 0;
   position: relative;
-  top: -1px;
+  top: -3px;
 }
 
 .intro-copy {
