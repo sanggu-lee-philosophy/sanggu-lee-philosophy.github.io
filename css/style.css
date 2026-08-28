@@ -157,8 +157,6 @@ a {
 .content-column {
   max-width: 620px;
   padding-top: 0;
-  position: relative;
-  top: -6px;
 }
 
 .intro-copy {
@@ -166,8 +164,8 @@ a {
   font-size: 1rem;
 }
 
-.intro-copy p {
-  margin: 0 0 22px;
+.intro-copy p:first-child {
+  margin-top: -5px;
 }
 
 /* Shared pages */
