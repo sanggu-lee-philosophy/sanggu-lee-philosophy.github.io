@@ -156,6 +156,7 @@ a {
 
 .content-column {
   max-width: 620px;
+  padding-top: 0;
   position: relative;
   top: -6px;
 }
