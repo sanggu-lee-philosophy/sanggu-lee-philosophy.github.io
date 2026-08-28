@@ -90,7 +90,7 @@ a {
 
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);
-  gap: 82px;
+  gap: 70px;
 }
 
 /* Profile column */
@@ -101,10 +101,11 @@ a {
 }
 
 .profile-photo {
-  width: 145px;
-  height: 181px;
-  margin: 0 0 21px;
+  width: 155px;
+  height: 194px;
+  margin: 0 0 18px;
   object-fit: cover;
+  object-position: center 44%;
 }
 
 .placeholder-photo {
@@ -132,7 +133,7 @@ a {
 /* Professional links */
 
 .profile-links {
-  margin: 14px 0 27px;
+  margin: 12px 0 27px;
 
   display: flex;
   flex-wrap: wrap;
@@ -376,9 +377,10 @@ a {
     max-width: 310px;
   }
 
-  .profile-photo {
-    width: 140px;
-    height: 175px;
+.profile-photo {
+    width: 148px;
+    height: 185px;
+    object-position: center 44%;
   }
 
   .content-column {
